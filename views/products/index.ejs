@@ -12,10 +12,9 @@
             <li> <%= product.name %> <a href="/products/<%= product._id %>">Details</a> </li>    
         <% } %>
     </ul>
-    <!-- <a href="/products/new">New Product</a> -->
+    <a href="/products/new">New Product</a>
     <% if(category !== 'All') { %>
     <a href="/products">All Products</a>
     <% } %>
-    <a href="/farms">All Farms</a>
 </body>
 </html>
